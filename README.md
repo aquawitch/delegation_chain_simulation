@@ -2,7 +2,10 @@
 
 AI 에이전트 위임 체인에 제로 트러스트(ZTA)를 적용했을 때, 홉(hop)마다 권한이 어떻게 좁아지고 비정상 동작이 어디서 막히는지 직접 눌러 보며 확인하는 단일 HTML 시뮬레이터입니다.
 
+**라이브 데모:** <https://aquawitch.github.io/delegation_chain_simulation/>
+
 - 파일: `delegation-chain-sim.html` (의존성 없음, 브라우저에서 바로 열면 됩니다)
+- `index.html`은 위 파일로 바로 넘겨주는 진입점입니다 (GitHub Pages용)
 - 구조: **사용자 → 에이전트 A → 에이전트 B → 도구·API**, 각 구간 사이에 검증 지점(PEP)
 
 ## 핵심 개념: 홉마다 인가 권한의 축소
